@@ -1,0 +1,89 @@
+
+public class Array2D {
+    public static void main(String[] args) {
+        // Array 2D
+        // Tipe data primitif
+        int[][] data01 = {
+            {1, 2},
+            {3, 4, 5}
+        };
+        System.out.println("Array 2D Integer:");
+        for (int i = 0; i < data01.length; i++) {
+            for (int j = 0; j < data01[i].length; j++) {
+                System.out.println("array 2D[" + i + "][" + j + "] = " + data01[i][j]);
+            }
+        }
+        System.out.println("");
+
+        float[][] data02 = {
+            {4.5f, 3.5f},
+            {6.7f, 5.76f}
+        };
+        System.out.println("Array 2D Float:");
+        for (int i = 0; i < data02.length; i++) {
+            for (int j = 0; j < data02[i].length; j++) {
+                System.out.println("array 2D[" + i + "][" + j + "] = " + data02[i][j]);
+            }
+        }
+        System.out.println("");
+
+        double[][] data03 = {
+            {2.4, 3.2},
+            {3.4, 5.67, 54.1}
+        };
+        System.out.println("Array 2D Double:");
+        for (int a = 0; a < data03.length; a++) {
+            for (int j = 0; j < data03[a].length; j++) {
+                System.out.println("array 2D[" + a + "][" + j + "] = " + data03[a][j]);
+            }
+        }
+        System.out.println("");
+
+        char[][] data04 = {
+            {'A', 'B', 'C'},
+            {'D', 'E', 'F'}
+        };
+        System.out.println("Array 2D Char:");
+        for (int a = 0; a < data04.length; a++) {
+            for (int j = 0; j < data04[a].length; j++) {
+                System.out.println("array 2D[" + a + "][" + j + "] = " + data04[a][j]);
+            }
+        }
+        System.out.println("");
+
+        // Tipe data non primitif
+        Double[][] data05 = {
+            {23.4, 11.2},
+            {12.5, 145.5, 5.67}
+        };
+        System.out.println("Array 2D Double (Non-primitif):");
+        for (int b = 0; b < data05.length; b++) {
+            for (int j = 0; j < data05[b].length; j++) {
+                System.out.println("array 2D[" + b + "][" + j + "] = " + data05[b][j]);
+            }
+        }
+
+        Integer[][] data06 = {
+            {4, 3, 5},
+            {2, 6, 10, 11, 13}
+        };
+        System.out.println("Array 2D Integer (Non-primitif):");
+        for (int b = 0; b < data06.length; b++) {
+            for (int j = 0; j < data06[b].length; j++) {
+                System.out.println("array 2D[" + b + "][" + j + "] = " + data06[b][j]);
+            }
+        }
+
+        String[][] data07 = {
+            {"satu", "dua"},
+            {"tiga", "empat"}
+        };
+        System.out.println("Array 2D String:");
+        for (int b = 0; b < data07.length; b++) {
+            for (int j = 0; j < data07[b].length; j++) {
+                System.out.println("array 2D[" + b + "][" + j + "] = " + data07[b][j]);
+            }
+        }
+    }
+}
+
