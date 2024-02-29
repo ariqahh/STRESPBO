@@ -1,0 +1,45 @@
+public class Array1D {
+    public static void main(String[] args) {
+    // Tipe data primitif
+    int[] Array01 = {1, 2, 3, 4, 5};
+    double[] Array02= {1.1, 2.2, 3.3, 4.4, 5.5};
+    char[] Array1D = {'a', 'b', 'c', 'd', 'e'};
+
+    // Tipe data wrapper
+    Integer[] integerArray1D = {1, 2, 3, 4, 5};
+    Double[] doubleArray1DWrapper = {1.1, 2.2, 3.3, 4.4, 5.5};
+    String[] stringArray1D = {"Satu", "Dua", "Tiga", "Empat", "Lima"};
+
+    // Pencetakan
+    for (int i = 0; i < Array01.length; i++) {
+    System.out.print(Array01[i] + " ");
+   }
+    System.out.println();
+
+    for (double d :  Array02) {
+     System.out.print(d + " ");
+   }
+    System.out.println();
+
+    for (char c : Array1D) {
+    System.out.print(c + " ");
+   }
+    System.out.println();
+
+    for (Integer integer : integerArray1D) {
+    System.out.print(integer + " ");
+   }
+    System.out.println();
+
+    for (Double doubleWrapper : doubleArray1DWrapper) {
+     System.out.print(doubleWrapper + " ");
+   }
+    System.out.println();
+
+    for (String string : stringArray1D) {
+    System.out.print(string + " ");
+   }
+    System.out.println();
+    }
+   
+}
