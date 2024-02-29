@@ -1,0 +1,22 @@
+package arrayscanner;
+
+import java.util.Scanner;
+
+public class Arrayscanner {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String [] nama  = new String[3];
+        nama [0] = input.next();
+        nama [1] = input.next();
+        nama [2] = input.next();
+        
+        System.out.println("Nilai pada index ke [0] = " + nama[0]);
+        System.out.println("Nilai pada index ke [1] = " + nama[1]);
+        System.out.println("Nilai pada index ke [2] = " + nama[2]);
+
+     
+        
+    }
+    
+}
