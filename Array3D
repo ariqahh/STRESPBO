@@ -1,0 +1,142 @@
+public class array3D {
+    public static void main(String[] args) {
+        int pbo [][][] = {
+        {
+            {12, 13, 14},
+            {11, 15, 16},
+            {17, 18} 
+        },
+        {
+            {1, 2},
+            {3, 4},
+            {5, 8}  
+        }
+    };
+        for (int i = 0; i < pbo.length; i++) {
+            for (int j = 0; j < pbo[i].length; j++) {
+                for (int k = 0; k < pbo[i][j].length; k++) {
+                   System.out.println("array 3D[" + i +"]["+ j + "][" + k + "] = "+ pbo[i][j][k]);   
+                }
+               
+            }
+  
+        }
+        System.out.println(" ");
+         float pbo01 [][][] = {
+        {
+            {12.1f, 13.4f, 14,0f},
+            {11.1f, 15.6f, 16.4f},
+            {17.89f, 18.0f} 
+        },
+        {
+            {1.12f, 20.23f},
+            {3.22f, 4.44f},
+            {5.23f, 8.80f}  
+        }
+      };
+        for (int i = 0; i < pbo01.length; i++) {
+            for (int j = 0; j < pbo01[i].length; j++) {
+                for (int k = 0; k < pbo01[i][j].length; k++) {
+                   System.out.println("array 3D for float : [" + i +"]["+ j + "][" + k + "] = "+ pbo01[i][j][k]);   
+                }
+               
+            }
+  
+        }
+        System.out.println(" ");
+        double All [][][] = {
+            {
+                
+                {2.11, 3.16},
+                {41.1, 5.22},
+                {63.4, 71.3},
+                {89.0, 24.0}
+                   
+            }
+        };
+        
+        for (int i = 0; i < All.length; i++) {
+            for (int j = 0; j < All[i].length; j++) {
+                for (int k = 0; k < All[i][j].length; k++) {
+                   System.out.println("array 3D for double :[" + i +"]["+ j + "][" + k + "] = "+ All[i][j][k]);   
+                }
+               
+            }
+  
+        }
+         char Ar04 [][][]= {
+            {
+                
+                   {'J', 'E', 'N', 'O'},
+                   {'H', 'A', 'I'},
+                   {'J', 'I', 'E', 'A'},
+                   {'E', 'X', 'O'}
+            }
+        };
+         System.out.println(" ");
+        for (int i = 0; i < Ar04.length; i++) {
+            for (int j = 0; j < Ar04[i].length; j++) {
+                for (int k = 0; k < Ar04[i][j].length; k++) {
+                 System.out.println("array 3D for char : [" + i + "][" + j +"][" + k + "] = "+Ar04[i][j][k]);   
+                }  
+            }   
+        }
+        Integer hai [][][] = {
+          {
+                   {10, 20},
+                   {30, 40},
+                   {50, 60},
+                   {70, 80}
+             }
+        };
+        System.out.println(" ");
+        for (int i = 0; i < hai.length; i++) {
+            for (int j = 0; j < hai[i].length; j++) {
+                for (int k = 0; k < hai[i][j].length; k++){
+                    System.out.println("array for Integer : [" + i + "][" + j + "][" + k + "] = "+hai[i][j][k]);
+                    
+                }
+                
+            }
+            
+        }
+        Double gas [][][] = {
+          {
+                {10.0, 20.1},
+                {30.2, 40.3},
+                {50.4, 60.5},
+                {70.6, 80.8}
+          }
+        };
+         System.out.println(" ");
+        for (int i = 0; i < gas.length; i++) {
+            for (int j = 0; j < gas[i].length; j++) {
+                for (int k = 0; k < gas[i][j].length; k++){
+                    System.out.println("array for Double : [" + i + "][" + j + "][" + k + "] = "+gas[i][j][k]);
+                    
+                }
+                
+            }
+            
+        }
+         String nama [][][] = {
+        {
+            {"Nono", "Nana", "Jie"},
+            {"Ecan", "Malk", "Injun"},
+            {"Lele"}
+        } 
+    };
+      System.out.println(" ");
+        for (int i = 0; i < nama.length; i++) {
+            for (int j = 0; j < nama[i].length; j++) {
+                for (int k = 0; k < nama[i][j].length; k++){
+                    System.out.println("array for Double : [" + i + "][" + j + "][" + k + "] = "+nama[i][j][k]);
+                    
+                }
+                
+            }
+            
+        }  
+    }
+    
+}
