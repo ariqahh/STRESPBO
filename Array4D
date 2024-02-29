@@ -1,0 +1,170 @@
+public class Array4 {
+    public static void main(String[] args) {
+        //tipe data primitif
+        int var [][][][] = {
+            {
+                {
+                   {2, 3},
+                   {4, 5},
+                   {6, 7},
+                   {8, 9}
+                      
+                }
+            },
+            {
+                {
+                    {1, 2},
+                    {3, 4},
+                    {5, 6},
+                    {7, 8}
+                }
+            }
+        };
+        System.out.println("");
+        for (int i = 0; i < var.length; i++) {
+            for (int j = 0; j < var[i].length; j++) {
+                for (int k = 0; k < var[i][j].length; k++) {
+                    for (int l = 0; l < var[i][j][k].length; l++) {
+                       System.out.println(" untuk int : [" + i + "]["+ j +"][" + k +"][" + l + "]  = "+ var[i][j][k][l]);  
+                    }
+                }               
+            }           
+        }
+        
+        float ray [][][][] = {
+            {
+                {
+                   {2.43f, 33.6f},
+                   {4.65f, 5.12f},
+                   {6.12f, 7.56f},
+                   {8.90f, 9.89f}
+                   
+                }
+                
+            },
+            {
+                {
+                    {12.0f, 45.76f},
+                    {11.65f, 13.0f},
+                    {14.8f, 8.78f}
+                }
+            }
+        };
+        System.out.println("");
+        for (int i = 0; i < ray.length; i++) {
+            for (int j = 0; j < ray[i].length; j++) {
+                for (int k = 0; k < ray[i][j].length; k++) {
+                    for (int l = 0; l < ray[i][j][k].length; l++) {
+                       System.out.println(" untuk float : [" + i + "]["+ j +"][" + k +"] = "+ ray[i][j][k][l]);  
+                    }
+                }               
+            }         
+        }
+        
+        double All [][][][] = {
+            {
+                {
+                   {2.11, 3.16},
+                   {41.1, 5.22},
+                   {63.4, 71.3},
+                   {89.0, 24.0}
+                   
+                }
+            }
+        };
+         System.out.println("");
+        for (int i = 0; i < All.length; i++) {
+            for (int j = 0; j < All[i].length; j++) {
+                for (int k = 0; k < All[i][j].length; k++) {
+                    for (int l = 0; l < All[i][j][k].length; l++) {
+                       System.out.println(" untuk double : [" + i + "]["+ j +"][" + k +"] = "+ All[i][j][k][l]);  
+                    }
+                }            
+            }           
+        }
+        
+        char Ar4 [][][][] = {
+            {
+                {
+                   {'J', 'E', 'N', 'O'},
+                   {'H', 'A', 'I'},
+                   {'N', 'A', 'N', 'A'},
+                   {'N', 'C', 'T'}
+                   
+                }
+            }
+        };
+        System.out.println("");
+        for (int i = 0; i < Ar4 .length; i++) {
+            for (int j = 0; j < Ar4 [i].length; j++) {
+                for (int k = 0; k < Ar4 [i][j].length; k++) {
+                    for (int l = 0; l < Ar4 [i][j][k].length; l++) {
+                       System.out.println(" untuk char : [" + i + "]["+ j +"][" + k +"] = "+ Ar4 [i][j][k][l]);  
+                    }
+                }    
+            }  
+        }  
+        //tipe data non primitif
+        String nama [][][][] = {
+          {
+              {
+                 {"Nono", "Nana", "Jie"},
+                 {"Ecan", "Malk", "Injun"}
+              }
+          } 
+        };
+          System.out.println("");
+        for (int i = 0; i < nama .length; i++) {
+            for (int j = 0; j < nama [i].length; j++) {
+                for (int k = 0; k < nama [i][j].length; k++) {
+                    for (int l = 0; l < nama [i][j][k].length; l++) {
+                       System.out.println(" untuk String : [" + i + "]["+ j +"][" + k +"] = "+ nama[i][j][k][l]);  
+                    }
+                }         
+            }           
+        }
+        
+        Integer hai [][][][] = {
+          {
+                {
+                   {10, 20},
+                   {30, 40},
+                   {50, 60},
+                   {70, 80}
+                      
+                }  
+          }
+        };
+        System.out.println("");
+        for (int i = 0; i < hai .length; i++) {
+            for (int j = 0; j < hai [i].length; j++) {
+                for (int k = 0; k < hai [i][j].length; k++) {
+                    for (int l = 0; l < hai [i][j][k].length; l++) {
+                       System.out.println(" untuk String : [" + i + "]["+ j +"][" + k +"] = "+ hai[i][j][k][l]);  
+                    }
+                }              
+            } 
+        }
+        
+        Double gas [][][][] = {
+          {
+                {
+                   {10.0, 20.1},
+                   {30.2, 40.3},
+                   {50.4, 60.5},
+                   {70.6, 80.7}    
+                }  
+          }
+        };
+        System.out.println("");
+        for (int i = 0; i < gas .length; i++) {
+            for (int j = 0; j < gas [i].length; j++) {
+                for (int k = 0; k < gas [i][j].length; k++) {
+                    for (int l = 0; l < gas [i][j][k].length; l++) {
+                       System.out.println(" untuk Double : [" + i + "]["+ j +"][" + k +"] = "+ gas[i][j][k][l]);  
+                    }
+                } 
+            }  
+        }
+    }
+}
